@@ -8,6 +8,8 @@
     <!-- Add Tailwindcss Dependencies -->
     <link rel="stylesheet" href="/dist/tailwind.css">
     <!-- Add custom CSS Files Dependencies -->
+    <!--Fontawesome-->
+    <script src="https://kit.fontawesome.com/93fe44d00e.js" crossorigin="anonymous"></script>
     <title>Spotify Frontend</title>
 </head>
 <body>
@@ -22,29 +24,29 @@
             <div class="border-b-2 border-gray-50">
                 <!--Logo-->
                 <div class="justify-center items-center">
-                    <img src="img/spotify-logo.png" alt="spotify-logo" class="w-32 h-12">
+                    <img src="img/spotify-logo.png" alt="spotify-logo" class="w-36 h-12">
                 </div>
 
                 <!--Menu Starts-->
-                <div class="flex flex-col  m-6">
-                    <div>
-                        <img src="" alt="">
-                        <p><a href="">Home</a></p>
+                <div class="flex flex-col mt-6 content-center justify-center">
+                    <div class="flex content-center space-x-4">
+                        <i class="fa-solid fa-house fa-2x"></i>
+                        <p><a href="" class="text-xl">Home</a></p>
                     </div>
-                    <div>
-                        <img src="" alt="">
-                        <p><a href="">Search</a></p>
+                    <div class="flex content-center mt-6 space-x-4">
+                        <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+                        <p><a href="" class="text-xl">Search</a></p>
                     </div>
-                    <div>
-                        <img src="" alt="">
-                        <p><a href="">Your Library</a></p>
+                    <div class="flex content-center mt-6 space-x-6">
+                        <i class="fa-solid fa-lines-leaning fa-2x"></i>
+                        <p><a href="" class="text-xl">Your Library</a></p>
                     </div>
                 </div>
                 <!--Menu Ends-->
                 <!--PlayLists Starts-->
-                <div>
+                <div class="flex flex-col mt-6 justify-center">
                     <p>Playlists</p>
-                    <div class="flex flex-col  m-6">
+                    <div class="flex flex-col">
                         <div>
                             <img src="" alt="">
                             <p><a href="">Create Playlist</a></p>
@@ -58,7 +60,7 @@
                 <!--PlayLists Ends-->
             </div>
             <div>
-                Install App
+                <p></p><a href="">Install App</a>
             </div>
         </div>
         <!--sidebar ends-->
