@@ -557,3 +557,12 @@ video {
 .top-section {
   /**Shortcuts/Custom*/
 }
+
+.h-screen {
+  height: 100vh;
+}
+
+.bg-gray-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+}
