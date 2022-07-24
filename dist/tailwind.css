@@ -558,11 +558,28 @@ video {
   /**Shortcuts/Custom*/
 }
 
+.flex {
+  display: flex;
+}
+
 .h-screen {
   height: 100vh;
 }
 
-.bg-gray-600 {
+.flex-1 {
+  flex: 1 1 0%;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.bg-teal-400 {
   --tw-bg-opacity: 1;
-  background-color: rgb(75 85 99 / var(--tw-bg-opacity));
+  background-color: rgb(45 212 191 / var(--tw-bg-opacity));
+}
+
+.bg-gray-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
 }
