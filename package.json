@@ -10,6 +10,6 @@
   "scripts": {
     "dev": "live-server .",
     "tw" : "tailwind",
-    "watch" : "npx tailwindcss -i ./src/tailwind.css -o ./dist/tailwind.css --watch"
+    "dev2" : "npx tailwindcss -i ./src/tailwind.css -o ./dist/tailwind.css --watch"
   }
 }
